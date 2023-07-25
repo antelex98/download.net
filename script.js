@@ -10,6 +10,6 @@ downloadBtn.addEventListener("click",async ()=> {
         link.download = new Date().getTime();
         link.click();
     } catch (error) {
-        alert("Oh no!. Ha habido un fallo en la descarga")
+        alert("Oh no!.Ha habido un fallo en la descarga")
     }
 }) ;
